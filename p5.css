@@ -1,0 +1,348 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://img.pikbest.com/wp/202344/light-gray-background-design-abstract-grey-color-dark-black-and-with-old-wall-texture-of-cement-illuminated-by-white-gradient_9898524.jpg!w700wp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main .nav {
+  width: 100%;
+  height: 10%;
+  background-color: #5f5b5b65;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav .com_brand {
+  width: 15%;
+  height: 100%;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+
+
+}
+
+.nav .wp {
+  color: white;
+  width: 25%;
+  height: 100%;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+
+}
+
+.nav .menu {
+  width: 35%;
+}
+
+
+.menu ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+  margin-top: 25px;
+}
+
+
+.menu ul li a {
+  text-decoration: none;
+  color: #fefefe;
+  font-size: 22px;
+
+}
+
+
+.menu ul li a:hover {
+  color: rgb(109, 247, 249);
+}
+
+.cap {
+  width: 90%;
+  height: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+
+.cap h1 {
+  font-size: 100px;
+}
+
+.cap .btn p {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.cap .btn .gur {
+  width: 150px;
+  height: 50px;
+  background-color: #3fa8ee;
+  margin-left: 50px;
+  color: white;
+
+}
+
+.cap .btn .download {
+  width: 150px;
+  height: 50px;
+  background-color: transparent;
+  margin-left: 50px;
+  border: 2px solid white;
+  color: white;
+
+}
+
+.cap .btn button:hover {
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+
+.detail {
+  width: 90%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.detail .date {
+  border-bottom: 2px solid white;
+  font-size: 25px;
+  padding: 5px;
+
+}
+
+.detail .t1 {
+  font-size: 25px;
+  margin-top: 100px;
+}
+
+.p2 {
+  width: 100vw;
+  height: 80vh;
+  background-color: #1f1d1d;
+}
+
+.p2 h1 {
+  color: white;
+  font-size: 50px;
+}
+
+.p2 .boxpar {
+
+  width: 100%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+.p2 .boxpar .box {
+  width: 300px;
+  height: 300px;
+  color: white;
+  padding: 10px;
+  background-color: rgb(65, 61, 61);
+  border-radius: 10px;
+}
+
+.p2 .boxpar .box p {
+  margin-top: 10px;
+  color: rgb(225, 222, 222);
+}
+
+.benifit {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://img.freepik.com/premium-photo/construction-modern-skyscraper-monochromatic-black-white-designarchitecture-facade-design-high-rise-building-construction-3d-render_507676-1188.jpg?size=626&ext=jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.benifit .ob {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.benifit .ob h1 {
+  color: white;
+  font-size: 60px;
+  margin-top: 80px;
+}
+
+.benifit .pr {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.benifit .pr .ch {
+  width: 70%;
+  height: 80%;
+  margin-top: 50px;
+  color: white;
+  border-bottom: 2px solid white;
+  display: flex;
+
+}
+
+.benifit .pr .ch .ht {
+  width: 20%;
+  height: 20%;
+  font-size: 40px;
+}
+
+.benifit .pr .ch .ct {
+  width: 60%;
+  height: 20%;
+  margin-left: 100px;
+
+}
+
+.speaker {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.speaker h1 {
+  font-size: 50px;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+.speaker .spcont {
+  width: 100%;
+  height: 95%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.speaker .spcont .spk1 {
+  width: 23%;
+  height: 70%;
+  border-radius: 20px;
+  background-image: url("https://img.freepik.com/free-photo/young-fashion-smiling-hipster-man-city-cafe-during-lunch-time-with-notebook-suit_158538-8185.jpg?size=626&ext=jpg");
+  background-size: cover;
+}
+
+.speaker .spcont .spk2 {
+  width: 23%;
+  height: 70%;
+  border-radius: 20px;
+  background-size: cover;
+  background-image: url("https://img.lovepik.com/free-png/20220127/lovepik-workplace-business-men-go-to-work-png-image_401956132_wh1200.png");
+}
+
+.speaker .spcont .spk3 {
+  width: 23%;
+  height: 70%;
+  border-radius: 20px;
+
+  background-repeat: no-repeat;
+  background-image: url("https://img.freepik.com/free-photo/medium-shot-smiley-man-sitting-desk_23-2149927603.jpg?size=626&ext=jpg&ga=GA1.1.632798143.1705276800&semt=ais");
+}
+
+.speaker .spcont .spk4 {
+  width: 23%;
+  height: 70%;
+  border-radius: 20px;
+background-repeat: no-repeat;
+  background-image: url("https://media.istockphoto.com/id/645752506/photo/business-communication-and-work.jpg?s=612x612&w=0&k=20&c=s3AiOisIFFaCfjXfWSehI_1H8jZ6fpQUCAzNiJpo3_o=");
+}
+
+.speaker .spcont h2 {
+  margin-top: 99%;
+
+}
+
+.speaker .spcont h4 {
+  margin-bottom: 20px;
+  color: rgb(4, 76, 184);
+
+}
+
+.speaker .dg {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.speaker .dg .dg1 {
+  width: 23%;
+  margin-top: 0;
+}
+.footer{
+  width: 100vw;
+  height: 40vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+}
+.footer .fcont{
+  width: 95vw;
+  height: 40vh;
+  margin-left:5vw ;
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+}
+
+.footer .logo{
+  width: 30%;
+  height: 90%;
+
+
+}
+
+.footer .legal{
+  width: 30%;
+  height: 90%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+
+.footer .legal a{
+  text-decoration: none;
+  margin-top:40px;
+  color: white;
+}
+.footer h2{
+  color: rgb(202, 197, 197);
+}
+.footer .company{
+  width: 30%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  
+}
+
+.footer .company a{
+  text-decoration: none;
+  margin-top:30px;
+  color: white;
+}
