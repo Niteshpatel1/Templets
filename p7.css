@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+}
+
+.nav{
+    width: 90vw;
+    height: 9vh;
+
+}
+.nav .com_brand{
+    display: flex;
+   
+}
+
+
+.com_brand span{
+    margin-left: 100px;
+    margin-top:30px ;
+}
+
+.com_brand .icon {
+    width: 200px;
+    height: 100%;
+   margin-left:800Px;
+   margin-top: 30px;
+
+}
+.icon .fa-solid{
+    margin-right: 20px;
+}
+
+.conent{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+}
+.conent .menu{
+    width: 10%;
+    height: 100%;
+}
+.menu ul{
+
+    list-style: none;
+    padding: 2px;
+}
+.menu ul li{
+   margin-left: 20px ;
+   margin-top: 20px;
+}
+
+.menu ul a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 25px;
+}
+ .menu ul a:hover{
+    color: rgb(162, 253, 255);
+ }
+ .conent .elements{
+    width: 85%;
+    height: 100%;
+    background-image: url("https://us.v-cdn.net/6036147/uploads/YEZZETXZK69W/d-19-1-1200x675.jpg");
+    color: white;
+    padding: 50px;
+    font-size: 40px;
+    background-size: cover;
+
+ }
+ .elements button{
+    width: 200px;
+    height: 50px;
+    background-color: #635f5f;
+    border: none;
+ }
+
+ .elements button:hover{
+    margin-top: 20px;
+    background-color: #f7e894;
+ }
+
+ section {
+    width: 90vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 90px;
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+}
+
+.product button{
+    background-color: #f4d943;
+    border: none;
+    border-radius: 5px;
+}
+
+.last{
+    width: 100vw;
+    height: 90vh;
+}
+.last .subs{
+   width: 100%;
+   height: 30%;
+   background-color: rgb(20, 19, 19);
+   color: white;
+   padding:40px;
+}
+
+.last .subs input{
+    width: 90%;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.last .subs button{
+    margin-top: 20px;
+    background-color: rgb(237, 52, 52);
+    width: 200px;
+    height: 50px;
+}
+
+.last .end{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.end .contact input{
+    margin-top: 10px;
+
+}
+.end .contact button {
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+}
+
+.end .about ul{
+    list-style: none;
+
+}  
+
+.end .about ul li{
+    margin-top: 10px;
+   
+}
+
+.end .about ul li a{
+    color: black;
+}
+
+.end .store span{
+    margin-bottom: 20px;
+
+    
+}
+.aboutapp{
+    width: 100vw;
+    height: 100vh;
+
+}
+.aboutapp .heading{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
